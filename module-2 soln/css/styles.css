@@ -1,0 +1,72 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	margin: 20px;
+}
+section{
+	position: relative;
+}
+#for-margin{
+	margin: 20px;
+	background-color: black;
+	background-attachment: fixed;
+}
+#para{
+	padding: 10px;
+	padding-top: 65px;
+	color: white;
+}
+#head{
+	text-align: center;
+	font-weight: bold;
+	margin: 25px;
+	font-size: 175%;
+}
+.food1{
+	background-color: #f0ad4e;
+}
+.food2{
+	background-color: #d9534f;
+}
+.food3{
+	background-color: #a594e5;
+}
+#food{
+	font-size: 125%;
+	font-weight: bold;
+	padding: 5px;
+	border: 10px;
+	border-color: red;
+	position: absolute;
+	color: white;
+	top: 20px;
+	right: 20px;
+	width: 150px;
+	text-align: center;
+}
+@media(min-width: 992px){
+	.col-lg-4{
+		width: 33.33%;
+		float: left;
+	}
+}
+@media(min-width: 768px) and (max-width: 991px){
+	.col-md-6{
+		width: 50%;
+		float: left;
+	}
+	.col-md-12{
+		width: 100%;
+		float: left;
+	}
+}
+@media(max-width: 768px){
+	.col-sm-12{
+		width: 100%;
+		float: left;
+	}
+}
